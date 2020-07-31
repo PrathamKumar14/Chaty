@@ -19,6 +19,11 @@ function Chat({ location }) {
     setRoom(room);
 
     socket.emit("admit", { name, room });
+
+    return () => {
+      socket.emit("disconnect");
+      socket.off();
+    };
   }, [ENDPOINT, location.search]);
 
   return <h1>Chat</h1>;
