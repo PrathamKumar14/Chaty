@@ -30,14 +30,14 @@ function removeUser(id) {
 }
 
 function getUser(id) {
-  users.find((user) => user.id === id);
+  return users.find((user) => user.id === id);
 }
 
 function getUsersInRoom(room) {
-  users.filter((user) => user.room === room);
+  return users.filter((user) => user.room === room);
 }
 
-module.exorts = {
+module.exports = {
   changeNameAndRoom,
   addUser,
   removeUser,

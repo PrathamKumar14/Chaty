@@ -19,7 +19,7 @@ const io = socketIO(server);
 io.on("connection", (socket) => {
   console.log("a user connected");
 
-  socket.on("admit", ({ name, room }) => {
+  socket.on("admit", ({ name, room }, callback) => {
     console.log(name, room);
 
     const { error, user } = addUser({ id: socket.id, name, room });
