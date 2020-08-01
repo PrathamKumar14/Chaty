@@ -3,6 +3,7 @@
   padding: 20px;
   border: 2px solid red;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .room-name {
