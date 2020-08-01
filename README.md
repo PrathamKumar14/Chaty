@@ -18,3 +18,11 @@
 ### for Backend: 
      JavaScript, Node.js
    #### socket.io for real time data transfer   
+
+### Wanna try? 
+    1. Head over to https://hungry-einstein-b1fc19.netlify.app/ 
+    2. Enter your name. 
+    3. Enter you group name. 
+    4. Tell your friend to join the group with same name.
+    5. Enjoy! Happy hacking
+    
