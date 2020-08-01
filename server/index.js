@@ -4,13 +4,7 @@ const http = require("http");
 
 const router = require("./router");
 
-const {
-  changeNameAndRoom,
-  addUser,
-  removeUser,
-  getUser,
-  getUsersInRoom,
-} = require("./users.js");
+const { addUser, removeUser, getUser, getUsersInRoom } = require("./users.js");
 
 const app = express();
 const server = http.createServer(app);

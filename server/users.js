@@ -1,11 +1,8 @@
 const users = [];
 
-function changeNameAndRoom({ name, room }) {
+function addUser({ id, name, room }) {
   name = name.trim().toLowerCase().concat("$");
   room = room.trim().toLowerCase().concat("$");
-}
-
-function addUser({ id, name, room }) {
   const isUser = users.find((user) => user.room === room && user.name === name);
   if (isUser) {
     return {
@@ -38,7 +35,6 @@ function getUsersInRoom(room) {
 }
 
 module.exports = {
-  changeNameAndRoom,
   addUser,
   removeUser,
   getUser,
