@@ -1,0 +1,28 @@
+.header {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid red;
+  position: relative;
+}
+
+.room-name {
+  display: inline-block;
+  margin: 0;
+}
+
+.status {
+  display: inline-block;
+  margin: 0;
+}
+
+.close-icon {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.online-icon {
+  position: relative;
+  left: 10px;
+  top: -2px;
+}
