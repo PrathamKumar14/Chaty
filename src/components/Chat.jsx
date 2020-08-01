@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 
 import queryString from "query-string";
 import io from "socket.io-client";
-import "./Chat.css";
 
 import Header from "./Header";
 import Input from "./Input";
+import Messages from "./Messages";
 
 var socket;
 
@@ -53,6 +53,8 @@ function Chat({ location }) {
   return (
     <div className="chat-container">
       <Header room={room} />
+      <br />
+      <Messages messages={messages} name={name} />
       <br />
       <Input
         message={message}

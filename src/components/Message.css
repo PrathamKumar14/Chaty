@@ -1,0 +1,9 @@
+.trimmed-name,
+.text {
+  display: inline;
+  margin: 10px;
+}
+
+.trimmed-name {
+  color: red;
+}
