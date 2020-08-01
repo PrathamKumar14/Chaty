@@ -4,12 +4,12 @@ import "./Input.css";
 
 function Input({ message, setMessage, sendMessage }) {
   return (
-    <form classname="form">
+    <form className="form">
+      <label>Type message~</label>
       <input
         className="chat-input"
         value={message}
         type="text"
-        placeholder="type your message"
         // value={message}
         onChange={(event) => setMessage(event.target.value)}
         onKeyPress={(event) =>
