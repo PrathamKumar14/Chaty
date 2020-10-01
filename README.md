@@ -11,12 +11,12 @@
 
 ## Technologies Used
 
-### for Front-end:
+### For Front-end:
 
      HTML, CSS, JavaScript, React
 
 
-### for Backend:
+### For Backend:
 
      JavaScript, Node.js
 
