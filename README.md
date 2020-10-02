@@ -1,6 +1,6 @@
 # Chaty
 
-### Real time messaging web app with hacker theme
+### Real time messaging web app with hacker theme.
 
 ## Functionalities
 
