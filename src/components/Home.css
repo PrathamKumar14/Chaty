@@ -20,6 +20,11 @@ body {
   letter-spacing: 2px;
 }
 
+.emoji {
+  color: red;
+  font-size: 2em;
+}
+
 .input,
 .button {
   margin: 5px 0 0 10px;

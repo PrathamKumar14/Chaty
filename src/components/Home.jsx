@@ -9,7 +9,9 @@ function Home() {
 
   return (
     <div className="container">
-      <h2 className="heading">HACKING GROUP! 🕱</h2>
+      <h2 className="heading">
+        HACKING GROUP! <span className="emoji">&#9760;</span>
+      </h2>
       <form action="">
         <label>Enter Name/:</label>
         <input
