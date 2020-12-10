@@ -48,8 +48,6 @@ function Chat({ location }) {
     }
   }
 
-  console.log(message, messages);
-
   return (
     <div className="chat-container">
       <Header room={room} />
