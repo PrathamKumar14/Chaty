@@ -1,6 +1,6 @@
 # Chaty
 
-### Real time messaging web app with hacker theme
+### Real time messaging web app with hacker theme.
 
 ## Functionalities
 
@@ -28,4 +28,4 @@
     2. Enter your name.
     3. Enter your group name.
     4. Tell your friend to join the group with same name.
-    5. Enjoy! Happy hacking
+    5. Enjoy! Happy hacking.
